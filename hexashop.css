@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+  
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    text-align: left;
+    padding: 20px 20px;
+    background-color: #f9f9f9;
+    background-image: url(img/left-banner-image.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 1 ;
+    cursor: pointer;
+    text-align: justify;
+}
+
+
+.categoria {
+    text-align: center;
+    justify-content: right;
+    
+}
+
+
+
+#box1{
+    text-align: left;
+    padding: 20px 20px;
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    display: flex;
+    background-image: url(img/baner-right-image-01.jpg);
+    gap: 20px;
+    justify-content: space-between;
+    
+    
+}
+
+#box2{
+    text-align: left;
+    padding: 20px 20px;
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    display: flex;
+    background-image: url(img/baner-right-image-02.jpg);
+}
+
+#box3{
+    text-align: left;
+    padding: 20px 20px;
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    display: flex;
+    background-image: url(img/baner-right-image-03.jpg);
+    background-size: contain;
+  
+}
+
+#box4{
+    text-align: left;
+    padding: 20px 20px;
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    display: flex;
+    background-image: url(img/baner-right-image-04.jpg);
+}
+
+.ultimos-produtos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.ultimos-produtos h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.ultimos-produtos p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.produto {
+    text-align: center;
+}
+
+.produto img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.produto h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.produto p {
+    font-size: 16px;
+    color: #333;
+}
+
+
+.explore-produtos, .social-media, .informativo {
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.explore-produtos .destaque-produto {
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.destaque h3 {
+    font-size: 18px;
+}
+
+.galeria-social {
+    display: flex;
+    justify-content: light;
+    gap: 0px;
+}
+
+.galeria-social img {
+    justify-content: center;
+    width: 250px;
+    height: auto;
+    border-radius: 2px;
+    
+}
+
+
+.informativo form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.informativo form input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.info-contatos{
+    display: flex;
+    text-align: right;
+    margin-top: 0px;
+    display: flex;
+    
+}
+.caixa1{
+    display: flex;
+}
+.caixa2{
+    display: flex;
+}
+
+.rodape-superior {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 50px;
+}
+
+.rodape-superior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-rodape ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links-rodape ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.footer{
+    background-color: #333;
+
+}
+
+.rodape-inferior {
+    background-color: #333;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.icones-sociais a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
