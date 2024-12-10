@@ -78,6 +78,10 @@ body {
     
 }
 
+.hero-right {
+    display: flex;
+    
+}
 
 
 #box1{
@@ -216,17 +220,20 @@ body {
 }
 
 .info-contatos{
-    display: flex;
-    text-align: right;
+    text-align: left;
     margin-top: 0px;
+    justify-content: end;
+    
+}
+
+
+.caixa1{
     display: flex;
     
 }
-.caixa1{
-    display: flex;
-}
+
 .caixa2{
-    display: flex;
+    
 }
 
 .rodape-superior {
